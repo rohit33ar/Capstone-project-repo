@@ -1,0 +1,573 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 100vw;
+  height: auto;
+  /* background-color: #fff0f5; */
+  background-color: #fff;
+  /* border: 2px black solid; */
+  border-right: 5px red solid;
+}
+.img-bg {
+  background-color: white;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+}
+.img-bg > img {
+  position: relative;
+  width: 830px;
+  height: auto;
+  left: 180px;
+}
+.li {
+  position: relative;
+  left: 90px;
+  top: 250px;
+  color: black;
+  font-size: 30px;
+  font-weight: 300px;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  display: inline block;
+}
+.p1 {
+  position: relative;
+  left: 90px;
+  top: 230px;
+  color: black;
+  font-size: 50px;
+  font-weight: 900px;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.p2 {
+  position: relative;
+  left: 90px;
+  top: 230px;
+  color: black;
+  font-size: 50px;
+  font-weight: 900px;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.div-2 {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+.div-2 > h1 {
+  position: relative;
+
+  top: 55px;
+  color: black;
+  font-size: 60px;
+  font-weight: bolder;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.p3 {
+  position: relative;
+  top: 75px;
+}
+
+.grid {
+  top: 150px;
+  left: 218px;
+  display: grid;
+  grid-template-columns: 280px 280px 280px;
+  grid-template-rows: 250px 250px;
+  gap: 50px 100px;
+  color: black;
+  font-size: 15px;
+  position: relative;
+}
+.b1 {
+  grid-area: 1/1/2/2;
+  /* border: solid; */
+  position: relative;
+}
+.b2 {
+  grid-area: 1/2/2/3;
+  /* border: solid; */
+  position: relative;
+}
+.b3 {
+  grid-area: 1/3/2/4;
+  /* border: solid; */
+  position: relative;
+}
+.b4 {
+  grid-area: 2/1/3/2;
+  /* border: solid; */
+  position: relative;
+}
+.b5 {
+  grid-area: 2/2/3/3;
+  /* border: solid; */
+  position: relative;
+}
+.b6 {
+  grid-area: 2/3/3/4;
+  /* border: solid; */
+  position: relative;
+}
+.t1 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -0.8;
+  color: yellow;
+  font-size: 200px;
+
+  transform: scale(1.5, 1.5);
+  text-align: center;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.pt {
+  position: relative;
+  left: 15px;
+  top: 100px;
+}
+.grid h3 {
+  position: relative;
+  left: 80px;
+  top: 50px;
+}
+.d-bt {
+  z-index: -1;
+  color: yellow;
+  font-size: 80px;
+}
+.div-3 {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.div-3c1 {
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+  background-color: #fff;
+  display: flex;
+}
+.div-3c1-left {
+  position: relative;
+  top: 0.1vh;
+  left: 10vw;
+  width: 30vw;
+  height: 50vh;
+  /* background-color: palegoldenrod; */
+  float: left;
+}
+.div-3c1-left > h1 {
+  color: blue;
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 2px;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.div-3c1-left > h4 {
+  font-size: 19px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.div-3c1-left > p {
+  font-size: 17px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  text-align: justify;
+  line-height: 25px;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.div-3c1-left > button {
+  position: relative;
+  top: 3vh;
+  background-color: gray;
+  color: #fff;
+  padding: 10px 25px;
+  background-color: #0079ff;
+}
+
+.div-3c1-right {
+  position: relative;
+  top: 0.1vh;
+  left: 30vw;
+  width: 30vw;
+  height: 50vh;
+
+  float: right;
+}
+.div-3c1-right > img {
+  position: absolute;
+  width: 433px;
+  height: 406px;
+}
+.div-3c2 {
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+}
+.div-3c2-left {
+  position: relative;
+  top: 0.1vh;
+  left: 10vw;
+  width: 30vw;
+  height: 50vh;
+  float: right;
+}
+.div-3c2-left > img {
+  position: absolute;
+  width: 433px;
+  height: 406px;
+}
+.div-3c2-right {
+  position: relative;
+  top: 0.1vh;
+  left: 15vw;
+  width: 49vw;
+  height: 50vh;
+  padding-top: 9dvh;
+  float: right;
+}
+.div-3c2-right h3 {
+  font-size: 25px;
+  font-weight: 900;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 3px;
+}
+.div-3c2-right h1 {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin: 10px 0;
+}
+.div-3c2-right p {
+  line-height: 25px;
+  font-weight: 900;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.div-4 {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  position: relative;
+}
+.div-4-left {
+  position: relative;
+  top: 12vh;
+  left: 8vw;
+  width: 680px;
+  height: 400px;
+  /* background-color: palegoldenrod; */
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.div-4-left h1 {
+  font-size: 45px;
+  font-weight: 900;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+}
+.div-4-left p {
+  font-size: 19px;
+  text-align: justify;
+  line-height: 1.8;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+}
+.div-4-left > button {
+  margin-top: 10px;
+  background-color: #0079ff;
+  padding: 15px 10px;
+  width: 30%;
+}
+.div-4-bottom {
+  position: relative;
+  left: 10vw;
+  bottom: -15vh;
+  width: 80vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.div-4-bottom > h1 {
+  font-size: 45px;
+  font-weight: 900;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 3px;
+}
+.div-4-bottom > span {
+  font-size: 19px;
+  text-align: justify;
+  text-align: center;
+  line-height: 1.8;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+  padding: 10px 325px;
+}
+.div-4-bottom i {
+  flex-direction: row;
+  font-size: 50px;
+  margin: 10px 25px;
+  color: gray;
+}
+.g {
+  color: rgb(118, 48, 48);
+}
+.m {
+  color: blue;
+}
+.a {
+  color: gray;
+}
+.w {
+  color: blue;
+}
+
+.div-4 img {
+  position: absolute;
+  left: 60vw;
+  top: 0;
+  width: 500px;
+  height: 500px;
+}
+.contact {
+  width: 100vw;
+  height: 90vh;
+  /* background-image: url("1312323.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: black;
+  position: relative;
+}
+.side {
+  float: left;
+  position: absolute;
+  top: 32vh;
+  left: 15vh;
+  width: 350px;
+  height: 400px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+}
+.side h1 {
+  font-size: 25px;
+  font-weight: 900;
+  color: white;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+.side p {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  font-family: "Playfair Display SC", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+.side i {
+  font-size: 50px;
+  color: #fbd85d;
+  margin-bottom: 5px;
+}
+.side span {
+  color: white;
+  margin: 5px;
+}
+.c-bt {
+  position: absolute;
+  color: #61677a;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 120px;
+  font-weight: 900;
+  top: 5vh;
+  z-index: -0.9;
+  left: 30vw;
+  transform: scale(2, 2);
+}
+
+.contact > h1 {
+  color: #fbd85d;
+  text-align: center;
+  position: relative;
+  top: 80px;
+  font-size: 50px;
+}
+.name {
+  position: relative;
+  top: 25vh;
+  left: 67vh;
+  width: 45vw;
+  height: 6vh;
+  background-color: black;
+  border: 1.5px solid white;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: block;
+}
+.ta {
+  position: relative;
+  top: 25vh;
+  left: 67vh;
+  width: 45vw;
+  /*height: 6vh; */
+  background-color: black;
+  border: 1.5px solid white;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: block;
+}
+.cb {
+  position: absolute;
+  top: 73vh;
+  left: 38vw;
+  color: white;
+}
+/* label {
+  color: white;
+  position: relative;
+  top: 25vh;
+  left: 80vh;
+} */
+.butsub {
+  position: absolute;
+  background-color: #fbd85d;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  position: relative;
+  top: 29vh;
+  left: 43.5vh;
+}
+form > span {
+  position: relative;
+  top: 23.5vh;
+  left: 70vh;
+}
+form > a {
+  text-decoration: none;
+  color: violet;
+}
+.foot {
+  display: grid;
+  height: 10vh;
+  width: 100%;
+  background-color: #61677a;
+  text-align: center;
+  justify-content: center;
+}
+.foot p {
+  margin-top: 5px;
+  color: white;
+}
+.foot > span {
+  color: white;
+}
+
+/* Default styles */
+
+/* Add your default styles here */
+
+/* Media queries for responsive layout */
+
+/* Small devices (up to 768px) */
+@media (max-width: 768px) {
+  /* Adjust styles for small devices here */
+
+  .img-bg > img {
+    width: 100%;
+    left: 0;
+  }
+
+  .li,
+  .p1,
+  .p2 {
+    font-size: 24px;
+  }
+
+  .div-2 > h1 {
+    font-size: 40px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .div-3c1-left,
+  .div-3c1-right,
+  .div-3c2-left,
+  .div-3c2-right {
+    width: 100%;
+    left: 0;
+  }
+
+  .div-4-left h1 {
+    font-size: 30px;
+  }
+
+  .div-4 img {
+    width: 300px;
+    height: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .c-bt {
+    font-size: 60px;
+    top: 5vh;
+    left: 10vw;
+    transform: scale(1.5, 1.5);
+  }
+
+  .name,
+  .ta {
+    width: 80%;
+    left: 10%;
+  }
+}
